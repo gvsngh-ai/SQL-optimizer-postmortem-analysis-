@@ -1,0 +1,54 @@
+considering the objective of the project  and from these genius point of view 
+do you think there is a need to improvise it ?
+
+Phase 1: In-Database ML, Systems, and Data-Centric AI Pioneers
+These experts focus on executing machine learning directly inside the database engine, minimizing data movement and maximizing throughput—vital for enterprise products.
+
+Dr. Samuel Madden (USA – MIT)
+Focus: Database systems, distributed data processing, and machine learning integration. Known for core research on how data management systems can natively support machine learning models and analytics.
+Dr. Tim Kraska (Switzerland / USA – MIT)
+Focus: Learned index structures and machine learning for systems. He pioneered the concept of replacing traditional B-Trees and database indexes with machine learning models to drastically speed up data retrieval.
+Dr. Stratos Idreos (Greece / USA – Harvard University)
+Focus: Data systems architecture, adaptive database design, and automated physical database design. Highly relevant for building self-optimizing database products.
+Dr. Azza Abouzied (Egypt / UAE – NYU Abu Dhabi)
+Focus: Human-in-the-loop data analytics, database interfaces, and visual data exploration tools. Useful for designing intuitive user interfaces for database administrators and ML workflows.
+Dr. Jignesh M. Patel (India / USA – University of Wisconsin-Madison)
+Focus: Enterprise database architectures, query optimization, and hardware-accelerated data processing (leveraging modern CPU/GPU caches for database workloads).
+
+Phase 2: Graph, Vector, and Large-Scale Enterprise Data Architects
+Crucial if your product leverages Oracle AI Vector Search, graph data management, or large language model (LLM) embeddings mapped against relational data structures.
+Dr. Alon Halevy (Israel / USA – Meta / Ex-Google / University of Washington)
+Focus: Data integration, data lakes, structured data management, and semantic web technologies. Essential reference for unifying unstructured and structured data schemas.
+Dr. Divesh Srivastava (India / USA – AT&T Research)
+Focus: Data quality, data integration, and graph data management. His work helps build fault-tolerant data pipelines that maintain high integrity under heavy enterprise loads.
+Dr. Gerhard Weikum (Germany – Max Planck Institute for Informatics)
+Focus: Autonomous database tuning, knowledge graphs, and scalable text/data mining. A titan in European database research with deep insights into automated system health tracking.
+Dr. Minos Garofalakis (Greece – Technical University of Crete)
+Focus: Data streams, approximate query processing, and machine learning synchronization over massive relational datasets.
+Dr. Josee Tremblay (Canada – École Polytechnique de Montréal)
+Focus: Enterprise systems integration, high-performance computing, and resilient corporate data architectures.
+
+Phase 3: Automated Machine Learning (AutoML) & Scalable Optimization
+Valuable for engineering background monitoring tools, automated alert analysis, and predictive index optimization.
+Dr. Amol Deshpande (India / USA – University of Maryland)
+Focus: Probabilistic databases, cloud-native data systems, and query optimization for complex, uncertain enterprise data workloads.
+Dr. Feifei Li (China / USA – Alibaba / University of Utah)
+Focus: Cloud databases, distributed data systems, and AI-driven autonomous database infrastructure operations. Highly relevant for cloud-scale architectures (like OCI environments).
+Dr. Nesime Tatbul (Turkey / USA – Intel Labs / MIT)
+Focus: Time-series analytics, stream processing, and real-time anomaly detection—foundational for real-time alert monitors and log diagnostics.
+Dr. Xuemin Lin (China / Australia – University of New South Wales)
+Focus: Graph databases, spatial-temporal data management, and large-scale data mining algorithms.
+Dr. Bettina Kemme (Germany / Canada – McGill University)
+Focus: Distributed database replication, high availability, consistency protocols, and database recovery systems.
+
+Phase 4: Applied AI Engineering & Enterprise Systems Integration
+Focusing on the practical application layer, translating raw machine learning inference into clean, low-latency enterprise operations.
+Dr. Matei Zaharia (Romania / USA – Stanford University / Databricks)
+Focus: Large-scale data processing architectures, unified analytics, and integrating machine learning lifecycles with enterprise data platforms.
+Dr. Raghu Ramakrishnan (India / USA – Microsoft / University of Wisconsin)
+Focus: Database systems, data mining, and massive-scale cloud data architecture. A legendary figure in combining database logic with advanced data science.
+Dr. Timos Sellis (Greece / Australia – Swinburne University of Technology)
+Focus: Spatial databases, data warehousing, and advanced indexing structures.
+Dr. Shan Lu (China / USA – University of Chicago)
+Focus: Software reliability, bug-finding automation, and performance diagnostics in complex multi-tier database and software infrastructures.
+Dr. Magdalena Balazinska (Poland / USA – University of Washington)
