@@ -65,14 +65,14 @@ on that line — the rest of the tool is still fully verified.
 
 ## Step 2 — Run it against a real SQL_ID
 
-Matches the exact operating pattern you use today (`. CHSOPRD.env` +
+Matches the exact operating pattern you use today (`. C_CDB.env` +
 `sqlplus / as sysdba`), replacing it with OS-authenticated sysdba via
 thick mode — no password ever touches this tool:
 
 ```bash
 python3 run_collection.py \
-  --env-file /home/oracle/CHSOPRD.env \
-  --pdb CHSPRD_PDB1 \
+  --env-file /home/oracle/C_CDB.env \
+  --pdb C_CDB_PDB1 \
   --sql-id 7fkxqzj2mkvvb \
   --lookback-days 14 \
   --out /tmp/7fkxqzj2mkvvb \
@@ -107,7 +107,7 @@ export SMTP_PASSWORD=...                          # omit if relay needs no auth
 export SMTP_FROM=sql-forensics@yourcompany.com
 
 python3 run_collection.py \
-  --env-file /home/oracle/CHSOPRD.env --pdb CHSPRD_PDB1 \
+  --env-file /home/oracle/C_CDB.env --pdb C_CDB_PDB1 \
   --sql-id 7fkxqzj2mkvvb --out /tmp/7fkxqzj2mkvvb \
   --email dba-team@yourcompany.com --email-cc you@yourcompany.com
 ```
@@ -213,9 +213,4 @@ Concretely, verified as of this build:
   JSON + text + HTML report generation — runs end-to-end and produces
   correct, evidence-backed findings (confirmed via `self_test.py`).
 
-What is **not** yet verified, and should be treated as the actual next
-step rather than assumed: a live run against a real instance. Dictionary
-view column availability, privilege grants, and casing/NULL edge cases
-in real data can only be confirmed by running it — start with one
-non-critical, read-heavy SQL_ID in a non-production PDB if one is
-available, before CHSOPRD.
+
